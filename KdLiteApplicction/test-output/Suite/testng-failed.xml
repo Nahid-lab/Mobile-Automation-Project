@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.cslsoft.KandareeLiteTestCase.LibraryManagement">
+        <methods>
+          <include name="CreateAttributeNCheckEnttity"/>
+          <include name="EditAttribute"/>
+          <include name="nevigate"/>
+          <include name="DiableAttribute"/>
+          <include name="capabilities"/>
+          <include name="EditWithInvalidData"/>
+          <include name="EnableAttribute"/>
+          <include name="CreateByInvalidData"/>
+          <include name="librarySearch"/>
+          <include name="DeleteAttribute"/>
+        </methods>
+      </class> <!-- com.cslsoft.KandareeLiteTestCase.LibraryManagement -->
+      <class name="com.cslsoft.KandareeLiteTestCase.ProfileManagement">
+        <methods>
+          <include name="VarifyDisableToEnable"/>
+          <include name="VarifyDisableDefault"/>
+          <include name="navigation"/>
+          <include name="UpdateProfileValidData"/>
+          <include name="BlankFieldVerifyButton"/>
+          <include name="CancelDenieAfterchange"/>
+          <include name="UpdateProfileInvaliData"/>
+          <include name="updateProfilePicture"/>
+          <include name="capabilities"/>
+          <include name="CheckMobileField"/>
+          <include name="SaveButtonDenieAfterchange"/>
+          <include name="VarifyUpdateData"/>
+          <include name="BackButtonWarningMass"/>
+          <include name="CancelAfterchange"/>
+        </methods>
+      </class> <!-- com.cslsoft.KandareeLiteTestCase.ProfileManagement -->
+      <class name="com.cslsoft.KandareeLiteTestCase.Users">
+        <methods>
+          <include name="VerifyAfterEdit"/>
+          <include name="EmailVerification"/>
+          <include name="MobileNumberVerification"/>
+          <include name="EditByInvalidUserName"/>
+          <include name="ViewUserDetails"/>
+          <include name="DeleteUser"/>
+          <include name="CreateUser"/>
+          <include name="EditUser"/>
+          <include name="VerifyCreatedUsers"/>
+          <include name="EditDataDismiss"/>
+          <include name="CreatebyInvalidUserName"/>
+          <include name="BlankFieldDisableCreateButton"/>
+          <include name="MenuPermission"/>
+          <include name="MobileVerificationByEdit"/>
+          <include name="capabilities"/>
+          <include name="CreateDataDismiss"/>
+          <include name="VerifyDisableSaveButton"/>
+          <include name="LibraryPermission"/>
+          <include name="nevigate"/>
+        </methods>
+      </class> <!-- com.cslsoft.KandareeLiteTestCase.Users -->
+      <class name="com.cslsoft.KandareeLiteTestCase.LogInWithOTP">
+        <methods>
+          <include name="InvalidOTP"/>
+          <include name="ResendOTP"/>
+          <include name="CorrectEmailBlankCode"/>
+          <include name="BlankEmailBlankCode"/>
+          <include name="ExpiredOTP"/>
+          <include name="BlankEmailCorrectCode"/>
+          <include name="capabilities"/>
+          <include name="CorrectEmailIncorrertCode"/>
+          <include name="IncorrertEmailCorrertCode"/>
+          <include name="IncorrectEmailIncorrertCode"/>
+        </methods>
+      </class> <!-- com.cslsoft.KandareeLiteTestCase.LogInWithOTP -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
