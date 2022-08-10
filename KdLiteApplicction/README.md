@@ -1,2 +1,3 @@
-# Kandaree Lite Automation
- This is for kandaree Lite
+# Kd Lite Automation
+ This is for ERP Mobile version
+ 
